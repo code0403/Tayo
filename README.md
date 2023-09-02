@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+### Contact Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project  is build with React and TypeScript.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### To use the project
 
-### `npm start`
+1. git init
+2. git clone `<git link>`
+3. npm i (to install all the dependencies)
+4. Run the project
 
-Runs the app in the development mode.\
+### Run the project
+
+#### `npm start
+`
+
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##### json-server --watch data.json --port 8080
 
-### `npm test`
+The contact mangement App use local json server as database to perform the CRUD operation.
+*Run this command to view the contact mangement*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Tech Stack used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React Js
+* TypeScript
+* Redux
+* CSS
+* React Router v6
+* React Query aka TanstackQuery.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Features:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Perform CRUD operation in Contact Mangement
+* Navigate beween the the two a pages easliy
+* Get the updates about the Covid Situation globally by selecting the country.
